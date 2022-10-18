@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner In = new Scanner(System.in);
         Double t, rovn, a, q, x, A, r, R;
-
         t=6.0;
         a=10.0;
         rovn = (Math.sqrt(Math.abs(t))+Math.pow(a,3)*t)/(t*Math.abs(Math.sin(a/2)));
