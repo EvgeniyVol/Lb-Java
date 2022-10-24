@@ -1,4 +1,4 @@
-package Volkhin.E.O;
+package VolkhinEO;
 
 import java.util.Scanner;
 public class Main {
