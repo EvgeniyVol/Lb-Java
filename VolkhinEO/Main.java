@@ -3,7 +3,6 @@ package VolkhinEO;
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner In = new Scanner(System.in);
         ////////////////1 задание
         ////////////////6.1
         Double t, rovn, a;
@@ -79,14 +78,8 @@ public class Main {
         System.out.println("Входные данные: x = " + x);
         T = 5-Math.pow(Math.sin(x),2) + Math.pow(Math.E,(Math.pow(x,3)-1));
         System.out.println("Результат: T = " + T);
-        ////////////////2 задание
-        Double A, r, R, p;
-        System.out.println("A=");
-        A = In.nextDouble();
-        p= 3* A /2;
-        r = Math.sqrt((p-A)*(p-A)*(p-A)/p);
-        System.out.println("r= "+r);
-        R=A*Math.sqrt(3)/3;
-        System.out.println("R= "+R);
+        /////Задание 2
+        Zadanie_2 Z2 = new Zadanie_2();
+        Z2.Go();
     }
 }
