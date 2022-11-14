@@ -81,5 +81,6 @@ public class Main {
         /////Задание 2
         Zadanie_2 Z2 = new Zadanie_2();
         Z2.Go();
+
     }
 }
